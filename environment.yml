@@ -9,11 +9,11 @@ dependencies:
   - torchvision
   - torchaudio
   - cpuonly
-  - numpy
   - matplotlib
-  - opencv
   - pip
   - pip:
+    - numpy>=2.2
+    - opencv-python-headless
     - mitdeeplearning
     - jupyter
     - ipykernel
