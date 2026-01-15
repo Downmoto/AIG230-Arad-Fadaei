@@ -1,0 +1,18 @@
+name: nlp-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly
+  - numpy
+  - matplotlib
+  - pip
+  - pip:
+    - mitdeeplearning
+    - jupyter
+    - ipykernel
