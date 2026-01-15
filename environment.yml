@@ -11,6 +11,7 @@ dependencies:
   - cpuonly
   - numpy
   - matplotlib
+  - opencv
   - pip
   - pip:
     - mitdeeplearning
