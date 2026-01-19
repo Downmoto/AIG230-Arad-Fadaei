@@ -17,3 +17,5 @@ dependencies:
     - mitdeeplearning
     - jupyter
     - ipykernel
+    - spacy
+    - nltk
